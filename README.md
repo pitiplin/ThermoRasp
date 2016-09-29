@@ -1,2 +1,10 @@
 # ThermoRasp
-Repositorio donde iré dejando todo lo que vaya haciendo de un proyecto que consiste en poder controlar el termostato de una caldera usando los sensores de temperatura inalámbricos. Además se podrá conectar a internet para poder manejarlo remotamente
+HW Adquirido:
+- Raspberry Pi 3
+- 5V 1 Relay One Channel Module
+- 433/868/915mhz NRF905 módulo inalámbrico w / antena
+
+SW Utilizado:
+- Raspbian Jessie with PIXEL -> https://www.raspberrypi.org/downloads/raspbian/
+- Control Relé -> https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=78403
+- Control SPI Módulo RF -> https://www.raspberrypi.org/forums/viewtopic.php?t=33623&p=379538
