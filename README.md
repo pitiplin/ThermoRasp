@@ -8,3 +8,5 @@ SW Utilizado:
 - Raspbian Jessie with PIXEL -> https://www.raspberrypi.org/downloads/raspbian/
 - Control Relé -> https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=78403
 - Control SPI Módulo RF -> https://www.raspberrypi.org/forums/viewtopic.php?t=33623&p=379538
+
+Conectar teclado bluetooth: http://lifehacker.com/everything-you-need-to-set-up-bluetooth-on-the-raspberr-1768482065
