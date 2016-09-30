@@ -1,0 +1,28 @@
+Primero conectar la Raspberry por Ethernet, conectar con Putty y editar os siguientes archivos:
+
+/etc/network/interfaces
+
+auto lo
+iface lo inet loopback
+
+allow-hotplug eth0
+iface eth0 inet dhcp
+
+allow-hotplug wlan0
+iface wlan0 inet manual
+    wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+    post-up ifdown eth0
+iface default inet dhcp
+
+
+/etc/wpa_supplicant/wpa_supplicant.conf
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+    ssid="YOUR_SSID_HERE"
+    psk="YOUR_SECRET_PASSPHRASE_HERE"
+}
+
+Desconectar Ethernet y reiniciar Raspberry
