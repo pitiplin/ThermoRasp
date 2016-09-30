@@ -1,0 +1,16 @@
+Primero conectar la Raspberry por WiFi, conectar con Putty y editar el siguiente archivo:
+
+/etc/network/interfaces
+
+auto lo
+iface lo inet loopback
+
+allow-hotplug eth0
+iface eth0 inet dhcp
+
+allow-hotplug wlan0
+iface wlan0 inet static
+        address 198.168.1.151
+        netmask 255.255.255.0
+        gateway 198.168.1.1
+    wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
