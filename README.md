@@ -10,3 +10,5 @@ SW Utilizado:
 - Control SPI Módulo RF -> https://www.raspberrypi.org/forums/viewtopic.php?t=33623&p=379538
 
 Conectar teclado bluetooth: http://lifehacker.com/everything-you-need-to-set-up-bluetooth-on-the-raspberr-1768482065
+
+Instalar WiringPi: http://wiringpi.com/download-and-install/
