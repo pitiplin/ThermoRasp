@@ -14,3 +14,5 @@ Conectar teclado bluetooth: http://lifehacker.com/everything-you-need-to-set-up-
 Instalar WiringPi: http://wiringpi.com/download-and-install/
 
 Instalar Apache: https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md
+
+Instalar Dynamic DNS: http://blog.mivia.dk/free-dynamic-dns-for-raspberry-pi/
