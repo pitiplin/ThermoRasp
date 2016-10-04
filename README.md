@@ -12,3 +12,5 @@ SW Utilizado:
 Conectar teclado bluetooth: http://lifehacker.com/everything-you-need-to-set-up-bluetooth-on-the-raspberr-1768482065
 
 Instalar WiringPi: http://wiringpi.com/download-and-install/
+
+Instalar Apace: https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md
