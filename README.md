@@ -13,6 +13,4 @@ Conectar teclado bluetooth: http://lifehacker.com/everything-you-need-to-set-up-
 
 Instalar WiringPi: http://wiringpi.com/download-and-install/
 
-Instalar Apache: https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md
-
 WebSockets (comunicación de una página web con un servidor): https://www.html5rocks.com/en/tutorials/websockets/basics/
