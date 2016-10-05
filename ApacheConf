@@ -1,3 +1,5 @@
 1 - Instalar Apache: https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md
 
-2 - Definir autorización para acceder al sevidor: http://www.webreference.com/programming/apache_authentication/index.html
+2 - Definir autorización para acceder al sevidor: https://www.digitalocean.com/community/tutorials/how-to-set-up-password-authentication-with-apache-on-ubuntu-14-04
+
+(opción: Configuring Access Control within the Virtual Host Definition)
