@@ -14,6 +14,7 @@ sudo nano /etc/ddclient.conf
 use=web, web=ip.changeip.com
 
 #provide server and login details
+daemon=3600
 protocol=changeip
 ssl=yes
 server=nic.changeip.com/nic/update
