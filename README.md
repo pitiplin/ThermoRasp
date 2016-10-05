@@ -15,6 +15,4 @@ Instalar WiringPi: http://wiringpi.com/download-and-install/
 
 Instalar Apache: https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md
 
-Instalar Dynamic DNS: http://blog.mivia.dk/free-dynamic-dns-for-raspberry-pi/
-
 WebSockets (comunicación de una página web con un servidor): https://www.html5rocks.com/en/tutorials/websockets/basics/
