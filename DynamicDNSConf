@@ -1,0 +1,22 @@
+1 - Instalar ddclient
+
+sudo apt-get install ddclient
+
+2 - Configurar servidor ChangeIP:
+
+Modificar el archivo /etc/ddclient.conf de la siguiente forma:
+
+sudo nano /etc/ddclient.conf
+
+## single host update
+daemon=3600
+pid=/var/run/ddclient.pid
+protocol=changeip
+ssl=yes
+login=c.g.ambrozaitis@hotmail.com
+password=<my-changeip.com-password>
+thermorasp.ddns.mobi
+
+3 - Reiniciar servicio:
+
+sudo /etc/init.d/ddclient restart
