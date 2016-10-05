@@ -8,14 +8,21 @@ Modificar el archivo /etc/ddclient.conf de la siguiente forma:
 
 sudo nano /etc/ddclient.conf
 
-## single host update
-daemon=3600
-pid=/var/run/ddclient.pid
+#ddclient.conf
+-----------------
+#tell ddclient how to get your ip address
+use=web, web=ip.changeip.com
+
+#provide server and login details
 protocol=changeip
 ssl=yes
+server=nic.changeip.com/nic/update
 login=c.g.ambrozaitis@hotmail.com
-password=<my-changeip.com-password>
+password=<yourPassword>
+
+#specify the domain to update
 thermorasp.ddns.mobi
+-----------------
 
 3 - Reiniciar servicio:
 
