@@ -28,3 +28,6 @@ thermorasp.ddns.mobi
 3 - Reiniciar servicio:
 
 sudo /etc/init.d/ddclient restart
+
+
+Arrancar noip service: sudo /etc/usr/local/bin/noip2
