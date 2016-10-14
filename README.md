@@ -3,6 +3,8 @@ HW Adquirido:
 - Raspberry Pi 3
 - 5V 1 Relay One Channel Module
 - 433/868/915mhz NRF905 módulo inalámbrico w / antena
+- Pantalla Táctil de 7" para Raspberry Pi
+- Carcasa para pantalla táctil LCD Raspberry Pi Blanca
 
 SW Utilizado:
 - Raspbian Jessie with PIXEL -> https://www.raspberrypi.org/downloads/raspbian/
